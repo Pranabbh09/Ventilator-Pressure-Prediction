@@ -12,6 +12,7 @@ Our methodology is inspired by predictive maintenance systems. We treat the vent
 ## **2\. Data Description and Preparation**
 
 Data source- Google Brain - Ventilator Pressure Prediction(https://www.kaggle.com/competitions/ventilator-pressure-prediction/overview)
+
 The dataset is a complex time-series structured around individual respiratory cycles. Each breath is an independent sequence of 80 time steps.
 
 | Feature | Description | Relevance to Prediction |
