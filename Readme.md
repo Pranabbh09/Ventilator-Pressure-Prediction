@@ -70,6 +70,7 @@ The trained Bidirectional LSTM model achieved a strong performance on the valida
 
 The prediction quality can be visualized by comparing the true pressure curve against the model's output:
 
+![png](Images/Train_Test_Loss.png)
 ![png](Images/True_Pressure-vsLSTM_Pressure.png)
 
 Conclusion:  
