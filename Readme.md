@@ -70,6 +70,9 @@ The trained Bidirectional LSTM model achieved a strong performance on the valida
 
 The prediction quality can be visualized by comparing the true pressure curve against the model's output:
 
+![png](Train_Test_Loss.png)
+![png](True_Pressure-vsLSTM_Pressure.png)
+
 Conclusion:  
 The developed predictive framework successfully combines physics-informed, time-series feature engineering with the sequence modeling power of the BiLSTM architecture. The achieved MAE of 0.4275 confirms that the model robustly captures the essential, complex dynamics of the ventilator's operational state, providing accurate pressure predictions across the respiratory cycle.
 
