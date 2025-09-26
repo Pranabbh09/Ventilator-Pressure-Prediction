@@ -2,7 +2,7 @@
 
 ## **1\. Project Overview & Objective**
 
-This project addresses the Kaggle competition, "Ventilator Pressure Prediction," which challenges participants to predict airway pressure in an artificial lung circuit for COVID-19 patients. The core task is a high-frequency time-series regression problem where we must predict the continuous pressure value at each time step (0.003 seconds) for a given mechanical **breath cycle**.
+"Ventilator Pressure Prediction" which challenges participants to predict airway pressure in an artificial lung circuit for COVID-19 patients. The core task is a high-frequency time-series regression problem where we must predict the continuous pressure value at each time step (0.003 seconds) for a given mechanical **breath cycle**.
 
 **Objective:** The primary goal is to predict the internal airway pressure throughout a simulated 80-step respiratory cycle, minimizing the Mean Absolute Error (MAE) between the predicted and actual pressure readings.
 
@@ -22,7 +22,7 @@ The dataset is a complex time-series structured around individual respiratory cy
 | R | Resistance value of the circuit (one of 5, 20, or 50 cmH2​O/L/s). | A static, but crucial, physical parameter. |
 | C | Compliance value of the circuit (one of 10, 20, or 50 mL/cmH2​O). | A static, but crucial, physical parameter. |
 | **pressure** | The target variable: measured airway pressure (cmH2​O). | **Target Variable.** |
-
+Data source- Google Brain - Ventilator Pressure Prediction(https://www.kaggle.com/competitions/ventilator-pressure-prediction/overview)
 ## **3\. Methodology: Feature Engineering & Model Architecture**
 
 High performance in this competition relies on capturing the sequential dependencies and the phase-dependent nature of ventilator physics.
