@@ -11,6 +11,7 @@ Our methodology is inspired by predictive maintenance systems. We treat the vent
 
 ## **2\. Data Description and Preparation**
 
+Data source- Google Brain - Ventilator Pressure Prediction(https://www.kaggle.com/competitions/ventilator-pressure-prediction/overview)
 The dataset is a complex time-series structured around individual respiratory cycles. Each breath is an independent sequence of 80 time steps.
 
 | Feature | Description | Relevance to Prediction |
@@ -22,7 +23,9 @@ The dataset is a complex time-series structured around individual respiratory cy
 | R | Resistance value of the circuit (one of 5, 20, or 50 cmH2​O/L/s). | A static, but crucial, physical parameter. |
 | C | Compliance value of the circuit (one of 10, 20, or 50 mL/cmH2​O). | A static, but crucial, physical parameter. |
 | **pressure** | The target variable: measured airway pressure (cmH2​O). | **Target Variable.** |
-Data source- Google Brain - Ventilator Pressure Prediction(https://www.kaggle.com/competitions/ventilator-pressure-prediction/overview)
+
+![png](Images/Ventilator_diagram.png.png)
+
 ## **3\. Methodology: Feature Engineering & Model Architecture**
 
 High performance in this competition relies on capturing the sequential dependencies and the phase-dependent nature of ventilator physics.
