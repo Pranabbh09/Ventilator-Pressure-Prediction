@@ -24,7 +24,7 @@ The dataset is a complex time-series structured around individual respiratory cy
 | C | Compliance value of the circuit (one of 10, 20, or 50 mL/cmH2​O). | A static, but crucial, physical parameter. |
 | **pressure** | The target variable: measured airway pressure (cmH2​O). | **Target Variable.** |
 
-![png](Images/Ventilator_diagram.png.png)
+![png](Images/Ventilator_diagram.png)
 
 ## **3\. Methodology: Feature Engineering & Model Architecture**
 
